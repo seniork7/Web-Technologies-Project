@@ -1,0 +1,42 @@
+.navbar{
+    background-color: transparent;
+    margin: 10px;
+}
+
+.nav-item{
+    padding-right: 50px; 
+    font-size: 12px;
+}
+
+.carousel-inner{
+    height: 680px;
+    padding-top: 120px;
+    
+}
+
+.container{
+
+}
+
+.background{
+    background-color: #9fc4fc;
+    margin-top: 80px;
+}
+.card-title{
+    text-decoration: underline;
+}
+
+.row{
+    margin: 50px;
+}
+
+.header{
+    font-weight: bold;
+    font-family: helvetica, arial, sans-serif;
+    text-align: center;
+    color: #fd2c33;
+    text-decoration: underline;
+    padding-top: 60px;
+
+
+}
