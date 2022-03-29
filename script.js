@@ -1,4 +1,7 @@
-function revealMessage()
-    {
-        document.getElementById("book_cover").style.display="block";
-    }
+$(function(){
+    $("card-img-top").click(function(){
+      $("#div1").fadeIn();
+      $("#div2").fadeIn("slow");
+      $("#div3").fadeIn(3000);
+    });
+  });

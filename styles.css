@@ -16,7 +16,7 @@ html{
 }
 
 .collapse{
-    background-color: #031633;
+    background-color: #070d14;
     margin-top: 15px;
     padding-bottom: 2px;
 
@@ -43,7 +43,7 @@ html{
     color: purple;
 }
 .top-nav{
-    background-color: #010d1e;
+    background-color: white;
 }
 
 .nav{
@@ -63,8 +63,9 @@ html{
 }
 
 .background{
-    background-color: #9fc4fc;
+    background-color: ;
     margin-top: 80px;
+    padding-bottom: 60px;
 }
 .card-title{
     text-decoration: underline;
@@ -154,13 +155,71 @@ html{
 .number{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-right: 10px;
-    border-right: 2px solid rgb(207, 206, 206);
-    color: rgb(207, 206, 206);
+    border-right: 2px solid #010d1e;
+    color: #010d1e;
+}
+
+.signin{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 10px;
+    padding-left: 5px;
+    border-right: 2px solid #010d1e;
+}
+
+.signin:hover{
+    color: #010d1e;
+    text-decoration: underline #010d1e;
+}
+
+.login_page{
+    background-image: url(image/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.background-img{
+    margin-top: 15%;
+    margin-left: 3%;
+}
+
+.background-img-text{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.login-label{
+    color: white;
+    text-align: center;
+    background-color: #08445c;
+}
+
+.login-form{
+    border: 2px solid transparent;
+    margin-right: 200px;
+    text-align: center;
+}
+
+.login-form-info{
+    background-color: #ec2227;
+    padding: 20px;
+}
+
+.login{
+    margin-top: 150px;
+}
+
+.guest{
+    color: black;
+}
+
+.guest:hover{
+    color: white;
 }
 
 .fa-phone{
     padding-right: 3px;
-    color: rgb(207, 206, 206);
+    color: #010d1e;
 }
 
 .link1{
@@ -210,9 +269,138 @@ html{
 .contact-form{
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: red;
+    background-color: #254066;
+    margin-bottom: 200px;
 }
 
 .contact-text{
-    background-color: darkblue;
+    background-color: #010e20;
+    color: white;
+}
+
+#name{
+    margin-right: 100px;
+}
+
+#tel{
+    margin-right: 70px;
+}
+
+.btn{
+    background-color: #3d8bfd;
+    color: white;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: #01265a;
+    color: white;
+}
+
+.reset{
+
+}
+
+.policy{
+    font-family: helvetica, arial, sans-serif; 
+    color: black;
+    font-size: 14px;
+}
+
+.business-name{
+    font-style: italic;
+}
+
+.about{
+    padding-left: px;
+    padding-right: px;
+    margin-top: 70px;
+}
+
+.business-tagline{
+    border-bottom: 3px solid black;
+    font-style: italic;
+}
+
+.about-image1{
+    height: 330px;
+    width: 320px;
+}
+
+.about-image2{
+    height: 260px;
+    width: 320px;
+}
+
+.about-image3{
+    height: 510px;
+    width: 500px;
+    padding-right: 20px;
+}
+
+.business-aim{
+    font-family: arial,sans-serif;
+}
+
+.second-column{
+    padding-top: 89px;
+    padding-left: 15px;
+}
+
+.beliefs{
+    background-color: ;
+}
+
+p{
+    font-family: helvetica, arial, sans-serif;
+}
+
+h6{
+    font-weight: bold;
+}
+
+.mission-statement{
+    padding-left:50px; 
+    padding-right:50px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.card-title{
+    text-align:;
+}
+
+.card_text{
+    text-align:center;
+    font-family: helvetica, arial, sans-serif;
+    font-weight:800;
+    color: rgb(22, 19, 19);
+    font-size: 35px;
+    padding-top: 100px;
+}
+
+.card-img{
+    height: 550px;
+    width: 12in;
+    margin-left: 95px;
+    filter: blur(3px);
+}
+
+.view-portfolio{
+    background-color: #14438a;
+    color: rgb(212, 211, 211);
+    border: ;
+    border-radius: 20px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: medium;
+    padding: 6px 8px;
+}
+
+.view-portfolio:hover{
+    background-color: rgb(2, 2, 68);
+    color: white;
+}
+
+.card:hover{
+    padding;
 }
