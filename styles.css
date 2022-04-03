@@ -1,26 +1,22 @@
 html{
     height: 100%;
 }
-.navbar{
-    margin-top: 10px;
-}
 
 .navbar-nav{
     background-color: transparent;
     margin-left: 200px;
 }
 
-.nav-link{
-    color: rgb(221, 219, 219);
+.nav-item{
+    color: black;
     font-weight: bold;
 }
 
-.collapse{
-    background-color: #070d14;
-    margin-top: 15px;
-    padding-bottom: 2px;
+/* .collapse{
+    margin-top: px;
+    padding-bottom: px;
 
-}
+} */
 
 .d-inline-block{
     padding-left: 5px;
@@ -34,7 +30,6 @@ html{
 
 .nav-item a:hover{
    background-color: #3d8bfd;
-   color: red;
    font-size: 16px;
 }
 
@@ -42,15 +37,16 @@ html{
     text-decoration: none;
     color: purple;
 }
+
 .top-nav{
     background-color: white;
 }
 
-.nav{
-    padding-top: 5px;
-    padding-bottom: 5px;
+/* .nav{
+    padding-top: 10px;
+    padding-bottom: 2px;
     padding-right: 10px;
-}
+} */
 
 .d-flex{
     margin-left: 100px;
@@ -58,8 +54,17 @@ html{
 }
 
 .carousel-item{
-    margin-top: 60px;
-    height: 560px;
+    height: 550px;
+}
+
+.carousel-control-next-icon{
+    background-color: rgb(180, 179, 179); 
+    border-radius: 100px;
+}
+
+.carousel-control-prev-icon{
+    background-color: rgb(180, 179, 179); 
+    border-radius: 100px;
 }
 
 .background{
@@ -69,6 +74,14 @@ html{
 }
 .card-title{
     text-decoration: underline;
+}
+
+.about-img{
+    height: 100px;
+}
+
+.about-head{
+    text-align: center;
 }
 
 .row{
@@ -129,6 +142,21 @@ html{
     text-align:justify;
 }
 
+#contact-us{
+    text-align: center;
+}
+
+.contact-head{
+    font-family: helvetica, arial, sans-serif;
+    font-weight: bold;
+    color: #5b7a86;
+}
+
+.contact-words{
+    font-family: helvetica, arial, sans-serif;
+    color: rgb(187, 185, 185);
+}
+
 .footer-icons{
     list-style-type: none;
 }
@@ -138,13 +166,27 @@ html{
     padding-right: 5px;
 }
 
+.fa-facebook-square:hover{
+    color: rgb(90, 90, 90);
+}
+
 .fa-instagram-square{
     color: rgb(187, 185, 185);
     padding-right: 5px;
 }
+
+.fa-instagram-square:hover{
+    color: rgb(90, 90, 90);
+
+}
+
 .fa-whatsapp-square{
     color: rgb(187, 185, 185);
     padding-right: 5px;
+}
+
+.fa-whatsapp-square:hover{
+    color: rgb(90, 90, 90);
 }
 
 .fa-pinterest-square{
@@ -152,11 +194,15 @@ html{
     padding-right: 5px;
 }
 
+.fa-pinterest-square:hover{
+    color: rgb(90, 90, 90);
+}
+
 .number{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-right: 10px;
     border-right: 2px solid #010d1e;
-    color: #010d1e;
+    color: #0f56b9;
 }
 
 .signin{
@@ -164,11 +210,14 @@ html{
     padding-right: 10px;
     padding-left: 5px;
     border-right: 2px solid #010d1e;
+    color: #0f56b9;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .signin:hover{
-    color: #010d1e;
-    text-decoration: underline #010d1e;
+    color: #02367e;
+    text-decoration: underline #02367e;
 }
 
 .login_page{
@@ -186,6 +235,7 @@ html{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     margin-left: 30px;
+    padding-left: 90px;
 }
 
 .login-label{
@@ -196,8 +246,10 @@ html{
 
 .login-form{
     border: 2px solid transparent;
-    margin-right: 200px;
+    margin-top: 45px;
+    margin-right: 80px;
     text-align: center;
+    margin-left:100px;
 }
 
 .login-form-info{
@@ -206,7 +258,13 @@ html{
 }
 
 .login{
-    margin-top: 150px;
+    margin-top: 100px;
+}
+
+.login-page-logo{
+    padding-left: 90px;
+    height: 200px;
+    width: 400px;
 }
 
 .guest{
@@ -219,7 +277,7 @@ html{
 
 .fa-phone{
     padding-right: 3px;
-    color: #010d1e;
+    color: #0f56b9;
 }
 
 .link1{
@@ -256,14 +314,6 @@ html{
 
 .footer-logo{
     padding-top: 50px;
-}
-
-.contact{
-    text-align: center;
-    background-color: ; 
-    margin-top: 100px;
-    margin-left: 400px;
-    margin-right: 400px;
 }
 
 .contact-form{
@@ -366,17 +416,30 @@ h6{
     border-right: 1px solid black;
 }
 
+.about-statement{
+    text-decoration: underline;
+}
+
+.card-body{
+   background-color: #e4393f;
+}
+
+.card-text{
+    color: white;
+}
+
 .card-title{
-    text-align:;
+    color: rgb(29, 29, 29);
+    font-weight: bold;
 }
 
 .card_text{
     text-align:center;
     font-family: helvetica, arial, sans-serif;
-    font-weight:800;
+    font-weight: ;
     color: rgb(22, 19, 19);
     font-size: 35px;
-    padding-top: 100px;
+    padding-top: ;
 }
 
 .card-img{
@@ -386,7 +449,7 @@ h6{
     filter: blur(3px);
 }
 
-.view-portfolio{
+/* .view-portfolio{
     background-color: #14438a;
     color: rgb(212, 211, 211);
     border: ;
@@ -399,8 +462,32 @@ h6{
 .view-portfolio:hover{
     background-color: rgb(2, 2, 68);
     color: white;
+} */
+
+/* .card:hover{
+    padding;
+} */
+
+#map{
+    margin-left: 300px;
+
 }
 
-.card:hover{
-    padding;
-}
+/* #myBtn {
+    position: fixed;
+    bottom: 325px;
+    right: 10px;
+    font-size: 25px;
+    border: none;
+    border-radius: 100px;
+
+    width: 50px;
+    background-color: red;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+  }
+
+#myBtn:hover {
+    background-color: #555;
+  } */
