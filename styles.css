@@ -72,9 +72,6 @@ html{
     margin-top: 80px;
     padding-bottom: 60px;
 }
-.card-title{
-    text-decoration: underline;
-}
 
 .about-img{
     height: 100px;
@@ -250,6 +247,7 @@ html{
     margin-right: 80px;
     text-align: center;
     margin-left:100px;
+    display: flex;
 }
 
 .login-form-info{
@@ -266,6 +264,15 @@ html{
     height: 200px;
     width: 400px;
 }
+
+.login-input{
+    width: 250px;
+    margin-left: 30px;
+}
+
+/* .login-page-video{
+    display: flex;
+} */
 
 .guest{
     color: black;
@@ -316,16 +323,22 @@ html{
     padding-top: 50px;
 }
 
-.contact-form{
+/* #contact-form{
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #254066;
     margin-bottom: 200px;
+} */
+
+.contact-page-form{
+    display: flex;
+
 }
 
 .contact-text{
     background-color: #010e20;
     color: white;
+    text-align: center;
 }
 
 #name{
@@ -336,25 +349,11 @@ html{
     margin-right: 70px;
 }
 
-.btn{
-    background-color: #3d8bfd;
-    color: white;
-    font-weight: bold;
-}
-
-.btn:hover{
-    background-color: #01265a;
-    color: white;
-}
-
-.reset{
-
-}
-
 .policy{
     font-family: helvetica, arial, sans-serif; 
     color: black;
     font-size: 14px;
+    padding-left: 5px;
 }
 
 .business-name{
@@ -431,22 +430,27 @@ h6{
 .card-title{
     color: rgb(29, 29, 29);
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .card_text{
     text-align:center;
     font-family: helvetica, arial, sans-serif;
-    font-weight: ;
     color: rgb(22, 19, 19);
-    font-size: 35px;
-    padding-top: ;
+    font-size: 24px;
 }
 
 .card-img{
     height: 550px;
     width: 12in;
-    margin-left: 95px;
-    filter: blur(3px);
+}
+
+#cards-container{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
 }
 
 /* .view-portfolio{
@@ -473,6 +477,34 @@ h6{
 
 }
 
+#new-account-title{
+    font-family: helvetica, arial, sans-serif;
+    font-weight: bold;
+    color: rgb(54, 53, 53);
+}
+
+/* .form-label{
+    font-family: helvetica, arial, sans-serif;
+    font-weight: bold;
+}
+*/
+#new-account-form{
+    background-color: white;
+    padding-bottom: 20px;
+    border-radius: 12px;
+    margin-right: 165px;
+    margin-left: 150px;
+    font-family: helvetica, arial, sans-serif;
+}
+
+#new-account{
+    background-color: #3d8bfd;
+}
+
+#new-account-header{
+    text-align: center;
+}
+
 /* #myBtn {
     position: fixed;
     bottom: 325px;
@@ -491,3 +523,7 @@ h6{
 #myBtn:hover {
     background-color: #555;
   } */
+
+  #question{
+      margin-left: 20px;
+  }
