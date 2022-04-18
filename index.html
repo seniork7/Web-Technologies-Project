@@ -15,27 +15,29 @@
 <body class="login_page"> 
     <div class="login">
         <div class="row">
-          <div class="col">
-            <img src="image/Logo.png" class="login-page-logo">
-            <p class="background-img-text">"creating expressive designs"</p>
-                <video src="image/video.mp4" autoplay controls width="500" height>
+            <div class="col">
+                <img src="image/Logo.png" class="login-page-logo">
+                <p class="background-img-text">"creating expressive designs"</p>
+                <video width="500" autoplay muted loop controls>
+                    <source src="image/video.mp4" type="video/mp4">
                 </video>
-          </div>
+            </div>
           <div class="col">
               <div class="login-form">
                 <div class="login-form-info">
                     <form action="home.html">
                             <h2 class="login-label">Login</h2>
                             <br>
-                            <input type="email" name="" placeholder="email" required>
-                            <br><br>
-                            <input type="password" name="" placeholder="password" required>
-                            <br>
-                            <input type="checkbox">
+                            <div class="login-input">
+                                <input type="email" class="form-control" name="" placeholder="email" required>
+                                <br>
+                                <input type="password" class="form-control" name="" placeholder="password" required>
+                            </div>  
+                            <input type="checkbox" class="form-check-input">
                             <label for="">Remember me</label>
                             <br><br>
                             <div class="d-grid gap-2 col-6 mx-auto">
-                                <input type="submit" class="btn" value="Login">
+                                <input type="submit" class="btn btn-primary" value="Login">
                             </div>
                             <br>
                             <a href="home.html" class="guest"><span>Continue as guest</span></a>
@@ -43,7 +45,9 @@
                             <p>New to Genesis Design?</p>
                     </form>
                     <div class="d-grid gap-2 col-6 mx-auto">
-                        <input type="submit" class="btn" value="Create an account">
+                       <a href="new_account.html">
+                           <input type="submit" class="btn btn-primary" value="Create an account"  style="margin-right: 150px;">
+                        </a>
                         </div>
                     </div>
                 </div>

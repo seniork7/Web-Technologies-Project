@@ -65,7 +65,7 @@
         </ul>
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-primary" type="submit">Search</button>
+          <button class="btn btn-primary" id="form-action" type="submit">Search</button>
         </form>
       </div>
     </div>
@@ -105,7 +105,7 @@
 
 <!----------------------------------------------------Contact Form--------------------------------------------------->
 <br> <br>
-<div class="wrapper">
+<div class="">
   <h3 class="about-head">Don’t hesitate to contact us for <br> any information.</h3>
   <br><br>
   <div class="row" id="contact-us">
@@ -137,36 +137,44 @@
     </div>
   </div>
 </div>
-<br><br><br><br>
-<div class="mb-3 container" style="text-align:center;">
-  <div class="contact-text">
-    <h3>How can we help?</h3>
-    <p>Please leave us a message</p>
-  </div>
-  <div class="contact-form">
-    <form>
-      <input type="text" id="name" name="name" placeholder = "Name" required>
-      <input type="email" id="email" name="email" placeholder = "Email" required>
-      <br> <br>  <br>
-      <input type="tel" id="tel" name="telephone" placeholder = "Telephone" required>
-      <select name="reason" id="reason" required>
-        <option value="r1">Reason for contact</option>
-          <option value="r2">Starting a project</option>
-          <option value="r3">Need clarity on our services</option>
-          <option value="r4">Reporting a matter</option>
-          <option value="r5">Other</option>
+<br><br><br>
+<div class="contact-text">
+  <h3>How can we help?</h3>
+  <p>Please leave us a message</p>
+</div>
+<div class="container" style="text-align:center;">
+  <form class="" id="contact-form">
+    <div class="mb-3">
+      <input type="text" class="form-control contact-page-form" placeholder="Name" style="width: 590px" required>
+    </div>
+    <div class="mb-3">
+      <input type="email" class="form-control contact-page-form" placeholder="Email" style="width: 590px" required>
+    </div>
+    <div class="mb-3">
+        <input type="tel" class="form-control contact-page-form" placeholder="Telephone" style="width: 590px" required>
+    </div>
+    <div class="dropdown contact-page-form">
+      <label for="question">Reason for Contact</label>
+      <select class="form-select" id="question" style="width: 430px">
+        <option value="q1">--Choose--</option>
+        <option value="q2">Starting a project</option>
+        <option value="q3">Need clarity on our services</option>
+        <option value="q4">Reporting a matter</option>
+        <option value="q5">Other</option>
       </select>
-      <br> <br> <br>
-      <textarea id="comments" name="comments" rows="5" cols="65" placeholder="Message" required></textarea>
-      <br> 
-      <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-      <label class="form-check-label" for="exampleCheck1"><span class="policy">I have read and agree to the</span> 
+    </div>
+    <br>
+    <div class="mb-3">
+      <textarea class="form-control contact-page-form" name="comments" rows="5" cols="20" placeholder="Message" style="width: 590px"></textarea>
+    </div> 
+    <div class="contact-page-form">
+      <input type="checkbox" class="form-check-input" required>
+      <label class="form-check-label" for="exampleCheck1"><span class="policy"> I have read and agree to the</span> 
         <a href="https://www.iubenda.com/en/" target="_blank">Terms/Conditions.</a></label>
-      <br> <br>
-      <input type="submit" class="btn submit" value="Submit">
-      <input type="reset" class="btn reset">
-    </form>
-  </div>
+      </div>
+        <br>  <br>
+    <button type="submit" class="btn btn-outline-primary contact-page-form">Submit</button>
+  </form>
 </div>
 <!-----------------------------------------------Footer------------------------------------------------------------>
     <footer class="footer">

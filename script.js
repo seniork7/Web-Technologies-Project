@@ -56,3 +56,7 @@
 // const dam = (document.getElementsByClassName('col'));
 
 // console.log(dam[4])
+
+$(function(){
+    
+})
