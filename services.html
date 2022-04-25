@@ -13,54 +13,6 @@
     <title>Genesis Design - About</title>
 </head>
 <body class="">
-
-<!-- <div class="top-nav sticky-top">
-  <nav class="">
-    <ul class="nav justify-content-end">
-      <li class="top-nav-icons">
-        <i class="fa-solid fa-phone"></i>
-        <span class="number">888697-8475</span>
-        <a href="signin.html" class="signin"><span>Login <i class="fa-solid fa-circle-user"></i></span></a>
-        <a href="https://www.facebook.com/" target="_blank" class="link"><i class="fa-brands fa-lg fa-facebook-square link1"></i></a>
-        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-lg fa-instagram-square link2"></i></a>
-        <a href="https://www.whatsapp.com/" target="_blank"><i class="fa-brands fa-lg fa-whatsapp-square link3"></i></a>
-        <a href="https://www.pinterest.com/" target="_blank"><i class="fa-brands fa-lg fa-pinterest-square link4"></i></a>
-      </li>
-    </ul>
-  </nav>
-  <div class="">
-    <nav class="navbar fixed-top navbar-expand-lg">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarId"></button>
-        <div class="collapse navbar-collapse">
-          <a href="index.html" class="navbar-brand"><img src="image/Logo.png" alt="" width="130px" class="d-inline-block align-text-top"></a>
-          <ul class="navbar-nav  nav-pills" >
-            <li class="nav-logo">
-            </li>
-            <li class="nav-item" style="">
-              <a href="index.html" class="nav-link">HOME</a>
-            </li>
-            <li class="nav-item ">
-              <a href="aboutus.html" class="nav-link">ABOUT</a>
-            </li>
-            <li class="nav-item">
-              <a href="portfolio.html" class="nav-link">PORTFOLIO</a>
-            </li>
-            <li class="nav-item">
-              <a href="contactus.html" class="nav-link">CONTACT</a>
-            </li>
-            <li class="nav-item">
-              <a href="services.html" class="nav-link active">SERVICES</a>
-            </li>
-          </ul>  
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="search..." aria-label="Search" autocomplete="on">
-            <button class="btn btn-primary" type="submit">Search</button>
-          </form>
-        </div>
-    </nav>
-  </div>  
-</div>   -->
-
 <!--------------------------------------------Nav Bar------------------------------------------------------->
 <div class="sticky-top">
   <nav class="" style="background-color: white;">
@@ -88,7 +40,15 @@
             <a class="nav-link" aria-current="page" href="home.html">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="aboutus.html">ABOUT</a>
+            <div class="dropdown">
+              <a class=" dropdown-toggle nav-link" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                ABOUT
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="aboutus.html">About Genesis Design</a></li>
+                <li><a class="dropdown-item" href="client_reviews.html">Client Reviews</a></li>
+              </ul>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
@@ -99,17 +59,6 @@
           <li class="nav-item">
             <a class="nav-link" href="contactus.html">CONTACT</a>
           </li>
-          <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li> -->
         </ul>
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -150,6 +99,95 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
+<!--------------------------Client Reviews---------------------------------->
+<body>
+  <div class="container">
+      <div class="row">
+      <!--1st member-->
+  <div class="col-md-3 col-sm-6">
+      <div class="our-team">
+          <div class="pic">
+              <img src="image/Clients_images/client1.jpeg">
+          </div>
+          <h3 class="title">Bella Williamson</h3>
+          <span class="post">Web Developer</span>
+          <p class="description">"Awesome service! There video editing service is like mo other, would definitely recommend them to anyone!"</p>
+          <ul class="social">
+              <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com/i/flow/login" class="fa fa-twitter"></a></li>
+              <li><a href="https://www.linkedin.com/login/" class="fa fa-linkedin"></a></li>
+       </ul>
+  
+          <!--social icon-->
+  
+      </div>
+  </div>
+  
+  <!--2nd member-->
+  
+  <div class="col-md-3 col-sm-6">
+      <div class="our-team">
+          <div class="pic">
+              <img src="image/Clients_images/client2.jpeg">
+          </div>
+          <h3 class="title">Kristiana Bell</h3>
+          <span class="post">Web Designer</span>
+          <p class="description">"Honestly, Genesis Design is such a good outlet to get your graphics service". </p>
+          <ul class="social">
+              <li><a href="https://www.facebook.com/" class="fa fa-facebook"></a></li>
+              <li><a href="https://twitter.com/i/flow/login" class="fa fa-twitter"></a></li>
+              <li><a href="https://www.linkedin.com/login/" class="fa fa-linkedin"></a></li>
+       </ul>
+           <!--social Icon-->
+  
+      </div>
+  </div>
+  
+  <!--3rd member-->
+  
+  <div class="col-md-3 col-sm-6">
+      <div class="our-team">
+          <div class="pic">
+              <img src="image/Clients_images/client3.jpeg">
+          </div>
+          <h3 class="title">Michael Brown</h3>
+          <span class="post">Web Designer</span>
+          <p class="description">"Highly, highly recommend to anyone who likes being creative but has a hard time coming up with ideas".</p>
+          <ul class="social">
+              <li><a href="https://www.facebook.com/" class="fa fa-facebook"></a></li>
+              <li><a href="https://twitter.com/i/flow/login" class="fa fa-twitter"></a></li>
+              <li><a href="https://www.linkedin.com/login/" class="fa fa-linkedin"></a></li>
+       </ul>
+           <!--social icon-->
+  
+      </div>
+  </div>
+  
+  <!--4th member-->
+  
+  <div class="col-md-3 col-sm-6">
+      <div class="our-team">
+          <div class="pic">
+              <img src="image/Clients_images/client4.jpeg">
+          </div>
+          <h3 class="title">Ryan Richardson</h3>
+          <span class="post">Web Designer</span>
+          <p class="description">"There’s a wide selection of products to choose from, i really love there professionalism."</p>
+          <ul class="social">
+              <li><a href="https://www.facebook.com/" class="fa fa-facebook"></a></li>
+              <li><a href="https://twitter.com/i/flow/login" class="fa fa-twitter"></a></li>
+              <li><a href="https://www.linkedin.com/login/" class="fa fa-linkedin"></a></li>
+               </ul>
+           <!--social icon-->
+  
+      </div>
+  </div>
+  
+  </div>
+  </div>
+  </body>
+  </html>
   <!-----------------------------------------------Footer------------------------------------------------------------>
   <footer class="footer">
     <div class="">
@@ -202,11 +240,19 @@
       </div>
     </div>
   </footer>
-  <script scr="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
+<script 
+  src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+</script>
+
 <script 
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
     crossorigin="anonymous">
+</script>
+
+<script 
+src="script.js">
 </script>
 </body>
 </html>

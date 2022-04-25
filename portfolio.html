@@ -41,7 +41,15 @@
             <a class="nav-link" aria-current="page" href="home.html">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="aboutus.html">ABOUT</a>
+            <div class="dropdown">
+              <a class=" dropdown-toggle nav-link" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                ABOUT
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="aboutus.html">About Genesis Design</a></li>
+                <li><a class="dropdown-item" href="client_reviews.html">Client Reviews</a></li>
+              </ul>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="portfolio.html">PORTFOLIO</a>
@@ -273,34 +281,20 @@
         <p>&copy 2022 <span class="brand-name">GenesisDesign</span> <span class="reserved">All rights reserved</span></p>
       </div>
   </footer>
-  <script scr="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script 
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+  </script>
+
   <script 
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
       crossorigin="anonymous">
   </script>
- <script src="script.js"></script>
- <!-- <script>
- //Get the button
- var mybutton = document.getElementById("myBtn");
- 
- // When the user scrolls down 20px from the top of the document, show the button
- window.onscroll = function() {scrollFunction()};
- 
- function scrollFunction() {
-   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-     mybutton.style.display = "block";
-   } else {
-     mybutton.style.display = "none";
-   }
- }
- 
- // When the user clicks on the button, scroll to the top of the document
- function topFunction() {
-   document.body.scrollTop = 0;
-   document.documentElement.scrollTop = 0;
- }
- </script> -->
+
+ <script 
+  src="script.js">
+ </script>
  
 </body>
 </div>

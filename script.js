@@ -57,6 +57,3 @@
 
 // console.log(dam[4])
 
-$(function(){
-    
-})
