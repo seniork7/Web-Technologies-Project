@@ -445,7 +445,7 @@ h6{
     width: 12in;
 }
 
-#cards-container{
+#card-container{
     position: relative;
     justify-content: center;
     align-items: center;
