@@ -97,107 +97,55 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
-<div class="b-example-divider"></div>
-                
-        <div class=" p-2 shadow rounded-7" style="width: 900px" 
-        <div> class="d-grid gap-1">
-        <div class="cal">
-        <div class="cal-month">
-       
-     
-                  <h1>Consultation Form</h1>
-                  <br>
-                  <div class="row">
-                    <div class="col">
-                      <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-                    </div>
-                    <div class="col">
-                      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-                    </div>
-                    <br>
-                    <br>
-                    <br>
-                  </div>
-                    <form class="row g-3">
-                      <div class="col-md-6">
-                        <label for="inputEmail4" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4">
-                      </div>
-                      
-                      <br>
-                      <div class="col-md-6">
-                        <label for="inputPhonenumber4" class="form-label">Phone Number</label>
-                        <input type="Phone Number" class="form-control" id="inputPhonenumber4">
-                      </div>
-                      <br>
-                      <div data-role="container" data-type="virtual-form-table-row" data-hash="0000000f" 
-                      data-type-id="0" data-colspan="20" data-num-children="1">
-                      <div data-role="control" data-type="drop-down" data-hash="00000010" data-type-id="4"
-                       data-colspan="20" data-renderer-type="tln" data-id="37354417">
-                        <label data-role="label" id="dropdown-00000010-acc" data-i18n-text="control_label_37354417">Consultation Interest</label>
-                        <dt data-role="instructions" id="dropdown-00000010-instr-acc" data-is-empty="1" data-i18n-text="control_instructions_37354417">
-                </dt>
-                <div data-role="input-row"  data-is-first-row="1" data-is-last-row="1" data-fill-colspan="0">
-  <div data-ui-role="ui-element" data-type="dropdown" data-role="i123-input" 
-  aria-labelledby="dropdown-00000010-acc dropdown-00000010-error-acc dropdown-00000010-instr-acc" data-size="100">
-  <select><option value="Network Solutions" data-index="0">Network Solutions</option><option value="Hosting Solutions"
-     data-index="1">Hosting Solutions</option><option value="Business Development" data-index="2">Business Development</option>
-     <option value="Procurement" data-index="3">Procurement</option><option value="Telephony" data-index="4">Telephony</option>
-     <option value="Web Design" data-index="5">Web Design</option><option value="Support" data-index="6">Support</option>
-     <option value="Other" data-index="7">Other</option></select></div></div>
+<!----------------------------------------Content------------------------------------------------------------------>
+<br> <br>
+<div class="b-example-divider container">
+      <h1>Consultation Form</h1>
+      <br>
+      <form>
+          <input type="text" class="form-control" placeholder="First Name" aria-label="First Name" style="width: 433px">
+          <br>
+          <input type="text" class="form-control" placeholder="Last Name" aria-label="Last Name" style="width: 433px">
+          <br>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Email" style="width: 433px">
+          <br>
+          <input type="Phone Number" class="form-control" id="inputPhonenumber4" placeholder="Phone Number" style="width: 433px">
+          <br>
+        <div data-role="container" data-type="virtual-form-table-row" data-hash="0000000f" 
+        data-type-id="0" data-colspan="20" data-num-children="1">
+        <div data-role="control" data-type="drop-down" data-hash="00000010" data-type-id="4"
+          data-colspan="20" data-renderer-type="tln" data-id="37354417">
+          <label data-role="label" id="dropdown-00000010-acc" data-i18n-text="control_label_37354417">Consultation Interest</label>
+          <br>
+  <select class="consult">
+    <option value="Network Solutions" data-index="0">-choose an option-</option>
+    <option value="Network Solutions" data-index="1">Photo/Video Editing</option>
+    <option value="Hosting Solutions" data-index="2">Business Card Design</option>
+    <option value="Business Development" data-index="3">Custom Designs</option>
+     <option value="Procurement" data-index="4">Book Cover Designs</option>
+     <option value="Telephony" data-index="5">Logo Designs</option>
+     <option value="Web Design" data-index="6">Web Design</option>
+     <option value="Support" data-index="7">Flyer Designs</option>
+     <option value="Other" data-index="8">Other</option>
+    </select>
+    <br>
      <label data-role="error" id="dropdown-00000010-error-acc" data-is-empty="1"></label>
-                </div>
-                </div>
-  
-  
-                      <h1>Desired Date for Consultation</h1>   
-  
-                      <form action="/action_page.php">
-                        <label for="birthdaytime">Birthday (date and time):</label>
-                        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
-                        
-                        </form>
-        
-
-      </div>
-    </div>
-
-    <script src="script.js"></script>
-               
-               <div class="col-12">
-                <div class="b-example-divider"></div>
-               
-                <br> <br>
-                <textarea id="comments" name="comments" rows="10" cols="60" placeholder="Comment"></textarea>
-                <br> <br>
+    </div>  
+      <label for="birthdaytime">Desired date for Consultation (date and time):</label>
+      <br>
+      <input type="datetime-local" id="birthdaytime" name="birthdaytime">    
+    <br> <br><br>
+    <textarea class="form-control contact-page-form" name="comments" rows="5" cols="20" placeholder="Message" style="width: 433px"></textarea>
+    <br> <br>
+                         
+          <div class="col-12"> 
+            <input type="submit"  class="btn btn-primary"></input>
+          </div>
+        </div>
+  </form>
             
-                <div>
-                  <strong class="d-block">Support</strong>
-                  <small>Get help from our support crew</small>
-                </a>
-              </nav>
-              <div class="col-12">
-                ...
-              </div>
-              </div>
-              
-                <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-              
-                  
-                      <div class="col-12"> 
-                        <button type="submit"  class="btn btn-primary">Submit</button>
-                      </div>
-                    </div>
-                    </div>
-                    </form>
-              </form>
-      </div>
-   
-    
-   
-    </div>
-
+  </div>
+  <br><br>
 <!-----------------------------------------------Footer------------------------------------------------------------>
 <footer class="footer">
     <div class="">
