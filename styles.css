@@ -3,20 +3,8 @@ html{
 }
 
 .navbar-nav{
-    background-color: transparent;
     margin-left: 200px;
 }
-
-.nav-item{
-    color: black;
-    font-weight: bold;
-}
-
-/* .collapse{
-    margin-top: px;
-    padding-bottom: px;
-
-} */
 
 .d-inline-block{
     padding-left: 5px;
@@ -24,29 +12,22 @@ html{
 
 .nav-item{
     padding-right: 50px;
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 }
 
 .nav-item a:hover{
    background-color: #3d8bfd;
-   font-size: 16px;
+   color: white;
 }
 
 .nav-item a:active{
     text-decoration: none;
     color: purple;
 }
-
-.top-nav{
-    background-color: white;
-}
-
-/* .nav{
-    padding-top: 10px;
-    padding-bottom: 2px;
-    padding-right: 10px;
-} */
 
 .d-flex{
     margin-left: 100px;
@@ -68,7 +49,6 @@ html{
 }
 
 .background{
-    background-color: ;
     margin-top: 80px;
     padding-bottom: 60px;
 }
@@ -87,24 +67,17 @@ html{
 
 .header{
     font-weight: bold;
-    font-family: helvetica, arial, sans-serif;
+    font-family: "Poppins", sans-serif;
     text-align: center;
     color: #fd2c33;
     text-decoration: underline;
     padding-top: 60px;
 }
-/*
-.col{
-    width: 1px;
-    height: 5px;
-    background-color: black;
-}
-*/
 
 .f-heading{
-    font-family: "Helvetica Neue",Helvetica;
-    font-size: small;
-    color: rgb(187, 185, 185);
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+    color: white;
     text-decoration: underline;
     text-align: justify;
 }
@@ -113,14 +86,14 @@ html{
     text-decoration: none;
     list-style-type: none;
     font-size: small;
-    color: rgb(187, 185, 185);
-    font-family: "Helvetica Neue",Helvetica;
+    color: white;
+    font-family: "Open sans",sans-serif;
     text-align: justify;
 }
 
 .list-group a:hover{
     text-decoration: underline;
-    color: blue;
+    color: #ed565d;
 }
 
 .list-group a:active{
@@ -129,13 +102,13 @@ html{
 }
 
 .footer{
-    background-color: black;
+    background-color: #544759;
 }
 
 #contact {
-    color: rgb(187, 185, 185);
-    font-size: small;
-    font-family: "Helvetica Neue",Helvetica;
+    color: white;
+    font-size: 14px;
+    font-family: "Open sans",sans-serif;
     text-align:justify;
 }
 
@@ -159,62 +132,73 @@ html{
 }
 
 .fa-facebook-square{
-    color: rgb(187, 185, 185);
+    color: #3B5998;
     padding-right: 5px;
+    font-size: 14px;
 }
 
 .fa-facebook-square:hover{
-    color: rgb(90, 90, 90);
+    color: #271f54;
 }
 
 .fa-instagram-square{
-    color: rgb(187, 185, 185);
+    color: #125688;
     padding-right: 5px;
+    font-size: 14px;
 }
 
 .fa-instagram-square:hover{
-    color: rgb(90, 90, 90);
-
+    color: #271f54;
 }
 
 .fa-whatsapp-square{
     color: rgb(187, 185, 185);
     padding-right: 5px;
+    font-size: 14px;
 }
 
 .fa-whatsapp-square:hover{
-    color: rgb(90, 90, 90);
+    color: #271f54;
 }
 
 .fa-pinterest-square{
     color: rgb(187, 185, 185);
     padding-right: 5px;
+    font-size: 14px;
+    background-color: ;
 }
 
 .fa-pinterest-square:hover{
-    color: rgb(90, 90, 90);
+    color: #271f54;
 }
 
 .number{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding-right: 10px;
-    border-right: 2px solid #010d1e;
-    color: #0f56b9;
+    border-right: 2px solid #271f54;
+    color: #271f54;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .signin{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Poppins', sans-serif;
     padding-right: 10px;
     padding-left: 5px;
-    border-right: 2px solid #010d1e;
-    color: #0f56b9;
+    border-right: 2px solid #271f54;
+    color: #271f54;
     text-decoration: none;
+    font-size: 12px;
     font-weight: bold;
 }
 
 .signin:hover{
-    color: #02367e;
+    color: black;
     text-decoration: underline #02367e;
+}
+
+.ball:hover{
+    width: 310px;
 }
 
 .login_page{
@@ -270,10 +254,6 @@ html{
     margin-left: 30px;
 }
 
-/* .login-page-video{
-    display: flex;
-} */
-
 .guest{
     color: black;
 }
@@ -284,7 +264,8 @@ html{
 
 .fa-phone{
     padding-right: 3px;
-    color: #0f56b9;
+    color: #271f54;
+    font-size: 12px;
 }
 
 .link1{
@@ -306,32 +287,31 @@ html{
 .copyright{
     font-size: 12px;
     text-align: center;
-    color: rgb(187, 185, 185);
+    color: white;
+    font-family: "Open sans",sans-serif;
 }
 
 .brand-name{
     padding-left: 5px;
     border-left: 1px solid  rgb(187, 185, 185);
+    color: white;
+    font-family: "Open sans",sans-serif;
 }
 
 .reserved{
     padding-left: 5px;
     border-left: 1px solid  rgb(187, 185, 185);
-}
+    color: white;
+    font-family: "Open sans",sans-serif;
 
+}
 .footer-logo{
     padding-top: 50px;
 }
 
-/* #contact-form{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: #254066;
-    margin-bottom: 200px;
-} */
-
 .contact-page-form{
     display: flex;
+    font-family: "Opens sans", sans-serif;
 
 }
 
@@ -339,6 +319,7 @@ html{
     background-color: #010e20;
     color: white;
     text-align: center;
+    font-family: "Poppins", sans-serif;
 }
 
 #name{
@@ -350,7 +331,7 @@ html{
 }
 
 .policy{
-    font-family: helvetica, arial, sans-serif; 
+    font-family: "Poppins", sans-serif; 
     color: black;
     font-size: 14px;
     padding-left: 5px;
@@ -358,17 +339,19 @@ html{
 
 .business-name{
     font-style: italic;
+    color: #ec2227;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .about{
-    padding-left: px;
-    padding-right: px;
     margin-top: 70px;
 }
 
 .business-tagline{
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #ec2227;;
     font-style: italic;
+    color: #ec2227;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .about-image1{
@@ -387,25 +370,9 @@ html{
     padding-right: 20px;
 }
 
-.business-aim{
-    font-family: arial,sans-serif;
-}
-
 .second-column{
     padding-top: 89px;
     padding-left: 15px;
-}
-
-.beliefs{
-    background-color: ;
-}
-
-p{
-    font-family: helvetica, arial, sans-serif;
-}
-
-h6{
-    font-weight: bold;
 }
 
 .mission-statement{
@@ -417,27 +384,35 @@ h6{
 
 .about-statement{
     text-decoration: underline;
+    color: #ec2227;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
 }
 
 .card-body{
-   background-color: #e4393f;
+   background-color: #ed565d;
 }
 
 .card-text{
     color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+
 }
 
 .card-title{
-    color: rgb(29, 29, 29);
+    color: white;
     font-weight: bold;
     text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
 }
 
 .card_text{
     text-align:center;
-    font-family: helvetica, arial, sans-serif;
-    color: rgb(22, 19, 19);
-    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #271f54;
+    font-size: 20px;
 }
 
 .card-img{
@@ -564,13 +539,22 @@ h6{
 
 .description{
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+
 }
 
 /*Romario CSS*/
+.figure-caption{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #271f54;
+}
+
 .table-pic {
-
-    style="width: 25%;  text-align: center; color: rgb(19, 12, 16);">
-
+    width: 25%;  
+    text-align: center; 
+    color: rgb(19, 12, 16);
 }
 
 .center {
@@ -586,11 +570,17 @@ justify-content: center;
 }
 
 #top-color{
-    background-color: rgb(197, 194, 194);
-    font: helvetica, arial, sans-serif;
-    font-weight: ;
-    padding-top: 30px;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 30px;
     font-style: italic;
+    border-radius: 5px;
+}
+
+#top-color:hover{
+    background-color: #ed565d;
+    color: white;
 }
 
 .home-pic:hover{
@@ -598,15 +588,22 @@ justify-content: center;
 }
 
 .home-text{
-    font-family: helvetica, arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
-    background-color: rgb(197, 194, 194);
+    background-color: white;
     font-style: italic;
+    font-weight: bold;
+    padding: 30px;
+    border-radius: 5px;
 }
 
+.home-text:hover{
+    background-color: #ed565d;
+    color: white;
+}
   
   body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
   
   /* Float four columns side by side */
@@ -640,8 +637,20 @@ justify-content: center;
     color: white;
   }
 
-/* Karena's CSS */
+.business-aim{
+    text-align:center;
+    text-decoration:underline; 
+    font-style: italic; 
+    font-family: 'Open Sans', sans-serif;
+}
 
+.name{
+    font-family: 'Open Sans', sans-serif;
+    color: #271f54;
+    font-size: 18px;
+}
+
+/* Karena's CSS */
   .calendar {
     width: 45rem;
     height: 52rem;
@@ -733,3 +742,56 @@ justify-content: center;
     opacity: 0.5;
   }
   
+  .spinner-grow{
+      align-items: left;
+      height: 14px;
+      width: 14px;
+      color: #271f54;
+  }
+
+  .search-box{
+    margin-top: px;
+    margin-left: 440px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #f3f4f6;;
+    height: 40px;
+    border-radius: 130px;
+    padding: 6px;
+}
+.search-box:hover > .search-txt{
+    width: 200px;
+    padding: 0 6px;
+    top: 50px;
+}
+.search-box:hover > .search-btn{
+   background: white;
+     }
+     
+.search-txt{
+ border: none;
+ background: none;
+ outline: none;
+ float: left;
+ padding: 5px;
+ color: #271f54;
+ font-size: 14px;
+ transition: 0.4s;   
+ line-height: 40px;
+ width: 0px;
+}
+
+.aim{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #271f54;
+    font-weight: bold;
+}
+
+.aim-head{
+    font-family: 'Open Sans', sans-serif;
+    color: #271f54;
+    font-weight: bold;
+}
