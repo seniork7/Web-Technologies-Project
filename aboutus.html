@@ -9,15 +9,21 @@
   crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/d2057036c1.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins&display=swap" rel="stylesheet">
   <link rel="icon" href="image/favicon (1).ico">
     <title>Genesis Design - About</title>
 </head>
-<body class="">
+<body class="" style = "background-color: #f3f4f6;">
 <!--------------------------------------------Nav Bar------------------------------------------------------->
 <div class="sticky-top">
-  <nav class="" style="background-color: white;">
+  <nav class="" style="background-color: #f3f4f6;">
     <ul class="nav justify-content-end">
       <li class="top-nav-icons">
+        <div class="spinner-grow text-danger" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
         <i class="fa-solid fa-phone"></i>
         <span class="number">888697-8475</span>
         <a href="index.html" class="signin"><span>Login <i class="fa-solid fa-circle-user"></i></span></a>
@@ -28,7 +34,7 @@
       </li>
     </ul>
   </nav>
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #97d0f9;">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #b2bfcf;">
     <div class="container-fluid">
       <a class="navbar-brand" href="home.html"><img src="image/Logo.png" alt="" width="130px"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,24 +43,24 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-pills">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="home.html">HOME</a>
+            <a class="nav-link" aria-current="page" href="home.html" style="color: #271f54;">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="aboutus.html">ABOUT</a>
+            <a class="nav-link active" aria-current="page" href="aboutus.html" style="color: #271f54;">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+            <a class="nav-link" href="portfolio.html" style="color: #271f54;">PORTFOLIO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="consultancy.html">CONSULTANCY</a>
+            <a class="nav-link" href="consultancy.html" style="color: #271f54;">CONSULTANCY</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contactus.html">CONTACT</a>
+            <a class="nav-link" href="contactus.html" style="color: #271f54;">CONTACT</a>
           </li>
         </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-primary" type="submit">Search</button>
+        <form class="search-box">
+          <input class="search-txt" type="text" name="" placeholder="search...">
+                <i class="fas fa-search" style="color: #ec2227;"></i>
         </form>
       </div>
     </div>
@@ -97,20 +103,20 @@
     <div class="col">
       <h2 class="business-name">Genesis Design</h2>
       <h4 class="business-tagline">"creates expressive designs"</h4>
-      <p class="business-aim">We are a multifaceted organization, working with a strong 
+      <p class="aim">We are a multifaceted organization, working with a strong 
         focus on design and user experience. Our reputable portfolio speaks for the company. 
         Our aim is to appease our clients with innovative and creative designs.
       </p>
     </div>
     <div class="col">
-      <img class="about-image1" src="image/about_images/about-img2.png">
+      <img class="about-image1" src="image/about_images/about-img2.png" style="height: 260px;">
     </div>
     <div class="col">
       <img class="about-image2" src="image/about_images/about-img1.png">
     </div>
   </div>
 </div>
-<br>
+<br><br><br><br><br><br>
 <div class="beliefs" >
   <div class="row">
     <div class="col" style="display: flex; justify-content: center; align-items: center;">
@@ -120,18 +126,18 @@
         <h2 class="business-tagline">What we believe in</h2>
         <br> <br>
         <div>
-          <h6>01. We believe in creativity</h6>
+          <h6 class="aim-head">01. We believe in creativity</h6>
           <br>
-          <p>
+          <p class="aim">
             We aim at pioneering more than following and thus the team of skilled 
             and very creative members brainstorms and is persistent in bringing up 
             new and unmatched ideas which align with all your designing needs.
           </p>
         </div>
         <div class="" style="padding-top: 80px;">
-          <h6>03. We believe in abilities</h6>
+          <h6 class="aim-head">03. We believe in abilities</h6>
           <br>
-          <p>
+          <p class="aim">
             We value our clients and our relationship thus we provide them with authentic, 
             up to date and high quality content matching their needs and budgets giving them 
             a team to rely upon.
@@ -140,9 +146,9 @@
           </div>
           <div class="col">
             <div class="second-column">
-              <h6>02. We believe in quality</h6>
+              <h6 class="aim-head">02. We believe in quality</h6>
                     <br>
-                    <p>
+                    <p class="aim">
                       Genesis Design is a team of vibrant, dynamic and versatile individuals 
                       who specialize in branding, UI/UX, product photography, graphic designing, 
                       space designing and marketing solutions, in short, giving you a one stop 
@@ -150,9 +156,9 @@
                     </p>
             </div>
             <div class="" style="padding-top: 28px; padding-left: 15px;">
-              <h6>04. We believe in relation</h6>
+              <h6 class="aim-head">04. We believe in relation</h6>
                     <br>
-                    <p>
+                    <p class="aim">
                       We value our clients and our relationship thus we provide them with 
                       authentic, up to date and high quality content matching their needs and 
                       budgets giving them a team to rely upon.
@@ -162,7 +168,7 @@
     </div>
   </div>
 </div>
-<br> <br> <br>
+<br> <br> <br><br><br><br><br>
 <div class="container">
   <div class="row">
     <div class="col">
@@ -170,19 +176,19 @@
         <h4 class="about-statement">Our Vision</h4>
          <br>
         <li>
-          <p>To have a customer first policy and deliver on-time results</p>
+          <p class="aim">To have a customer first policy and deliver on-time results</p>
         </li>
         <li>
-          <p>Working as a team with the members and the clients</p>
+          <p class="aim">Working as a team with the members and the clients</p>
         </li>
         <li>
-          <p>Have a professional approach to all our projects</p>
+          <p class="aim">Have a professional approach to all our projects</p>
         </li>
         <li>
-          <p>Bringing innovations constantly</p>
+          <p class="aim">Bringing innovations constantly</p>
         </li>
         <li>
-          <p>Follow the latest global standards in designing technology</p>
+          <p class="aim">Follow the latest global standards in designing technology</p>
         </li>
       </ul>
     </div>
@@ -191,18 +197,18 @@
         <h4 class="about-statement">Our Mission</h4>
          <br>
         <li>
-          <p>Promoting creativity by providing a completely unseen and unmatched work for 
+          <p class="aim">Promoting creativity by providing a completely unseen and unmatched work for 
             the best presentation of your brand
           </p>
         </li>
         <li>
-          <p>Understanding all the needs, demands and constrains of the clients</p>
+          <p class="aim">Understanding all the needs, demands and constrains of the clients</p>
         </li>
         <li>
-          <p>Providing the best service and latest technical excellence</p>
+          <p class="aim">Providing the best service and latest technical excellence</p>
         </li>
         <li>
-          <p>Equipping the team with all the required skills and design practices</p>
+          <p class="aim">Equipping the team with all the required skills and design practices</p>
         </li>
       </ul>
     </div>
@@ -211,19 +217,19 @@
         <h4 class="about-statement">Grow Together</h4>
          <br>
         <li>
-          <p>We do not consider our clients different from us, rather we work as a team
+          <p class="aim">We do not consider our clients different from us, rather we work as a team
           </p>
         </li>
         <li>
-          <p>The client comes first for us and their growth brings the surge in ours.</p>
+          <p class="aim">The client comes first for us and their growth brings the surge in ours.</p>
         </li>
         <li>
-          <p>All the decisions and work is done with a constant exchange of ideas and 
+          <p class="aim">All the decisions and work is done with a constant exchange of ideas and 
             suggestion between both the clients and the members.
           </p>
         </li>
         <li>
-          <p>All the designs that we make and have made so far include the efforts of multiple 
+          <p class="aim">All the designs that we make and have made so far include the efforts of multiple 
             people who work with us, we grow together!
           </p>
         </li>
@@ -231,7 +237,7 @@
     </div>
   </div>
 </div>
-
+<br><br><br><br><br><br>
 <div class="col">
   <div style="display: flex; justify-content: center; align-items: center;">
   <img src="image/about_images/about-img3.jpg" class="img-fluid" alt="..." style="width: 1000px;">

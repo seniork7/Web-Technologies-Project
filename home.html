@@ -9,15 +9,21 @@
   crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/d2057036c1.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins&display=swap" rel="stylesheet">
   <link rel="icon" href="image/favicon (1).ico">
   <title>Genesis Design - Home</title>
 </head>
-<body class="">
+<body style = "background-color: #f3f4f6;">
   <!--------------------------------------------Nav Bar------------------------------------------------------->
   <div class="sticky-top">
-    <nav class="" style="background-color: white;">
+    <nav class="" style="background-color: #f3f4f6;">
       <ul class="nav justify-content-end">
         <li class="top-nav-icons">
+          <div class="spinner-grow text-danger" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
           <i class="fa-solid fa-phone"></i>
           <span class="number">888697-8475</span>
           <a href="index.html" class="signin"><span>Login <i class="fa-solid fa-circle-user"></i></span></a>
@@ -28,7 +34,7 @@
         </li>
       </ul>
     </nav>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #97d0f9;">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #b2bfcf;">
       <div class="container-fluid">
         <a class="navbar-brand" href="home.html"><img src="image/Logo.png" alt="" width="130px"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,24 +43,24 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-pills">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="home.html">HOME</a>
+              <a class="nav-link active" aria-current="page" href="home.html" style="color: #271f54;">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="aboutus.html">ABOUT</a>
+              <a class="nav-link" aria-current="page" href="aboutus.html" style="color: #271f54;">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+              <a class="nav-link" href="portfolio.html" style="color: #271f54;">PORTFOLIO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="consultancy.html">CONSULTANCY</a>
+              <a class="nav-link" href="consultancy.html" style="color: #271f54;">CONSULTANCY</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contactus.html">CONTACT</a>
+              <a class="nav-link" href="contactus.html" style="color: #271f54;">CONTACT</a>
             </li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-primary" type="submit">Search</button>
+          <form class="search-box">
+            <input class="search-txt" type="text" name="" placeholder="search...">
+                <i class="fas fa-search" style="color: #ec2227;"></i>
           </form>
         </div>
       </div>
@@ -70,16 +76,16 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
-      <img src="image/Slides/img1.png" class="d-block w-100" alt="...">
+      <img src="image/Home/img5.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="image/Slides/img4.jpg" class="d-block w-100" alt="...">
+      <img src="image/Home/graphic2.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="image/Slides/img2.jpg" class="d-block w-100" alt="...">
+      <img src="image/Home/img3.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="image/Slides/img3.jpg" class="d-block w-100" alt="...">
+      <img src="image/Home/img7.png" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -92,7 +98,7 @@
   </button>
 </div>
 <!--------------------------------Content--------------------------------------------------------->
-<br><br><br><br><br>
+<br><br><br><br><br>  
 <div class="container">
   <div class="row" id="top-color">
     <div class="col">
@@ -115,7 +121,6 @@
   </div>
 </div>
 <br><br><br><br><br><br>
-
 <div class="row">
   <div class="col col-md-6 col-lg-3">
     <div class="home-pic">
@@ -126,19 +131,19 @@
   <div class="col col-md-6 col-lg-3">
     <div class="home-pic">
       <img src="image/Home/logo1.jpg" class="figure-img img-fluid rounded" style="width: 350px;">
-      <figcaption class="figure-caption" style="text-align: center;">Check out our services!</figcaption>
+      <figcaption class="figure-caption">Check out our services!</figcaption>
     </div>
   </div>
   <div class="col col-md-6 col-lg-3">
     <div class="home-pic">
       <img src="image/Home/shirt.png" class="figure-img img-fluid rounded" style="width: 350px;">
-      <figcaption class="figure-caption" style="text-align: center;">Our portfolio is ranked among the best in the industry!</figcaption>
+      <figcaption class="figure-caption">Our portfolio is ranked among the best in the industry!</figcaption>
     </div>
   </div>
   <div class="col col-md-6 col-lg-3">
     <div class="home-pic">
       <img src="image/Home/graphic.png" class="figure-img img-fluid rounded" style="width: 350px;">
-      <figcaption class="figure-caption" style="text-align: center;">We offer professional and satisfactory service!</figcaption>
+      <figcaption class="figure-caption">We offer professional and satisfactory service!</figcaption>
     </div>
   </div>
 </div>
@@ -158,7 +163,7 @@
     <div class="column">
       <div class="cards">
         <p><i class="fa fa-user"></i></p>
-        <h3>11+</h3>
+        <div class="count">53</div>
         <p>Partners</p>
       </div>
     </div>
@@ -166,7 +171,7 @@
     <div class="column">
       <div class="cards">
         <p><i class="fa fa-check"></i></p>
-        <h3>55+</h3>
+        <div class="count">350</div>
         <p>Projects</p>
       </div>
     </div>
@@ -174,7 +179,7 @@
     <div class="column">
       <div class="cards">
         <p><i class="fa fa-smile-o"></i></p>
-        <h3>100+</h3>
+        <div class="count">500</div>
         <p>Happy Clients</p>
       </div>
     </div>
@@ -182,7 +187,7 @@
     <div class="column">
       <div class="cards">
         <p><i class="fa fa-coffee"></i></p>
-        <h3>100+</h3>
+        <div class="count">653</div>
         <p>Meetings</p>
       </div>
     </div>
@@ -192,7 +197,7 @@
 
 <!--------------------------Client Reviews---------------------------------->
 <div>
-  <h3 class="business-aim" style="text-align:center; text-decoration:underline; font-style: italic;">Satisfied customers</h3>
+  <h3 class="business-aim">Satisfied Customers</h3>
 </div>  
 <br><br>
 <div class="container">
@@ -203,7 +208,7 @@
           <div class="pic">
               <img src="image/Clients_images/client1.jpeg">
           </div>
-          <h3 class="title">Bella Williamson</h3>
+          <h3 class="name">Bella Williamson</h3>
           <span class="post">Web Developer</span>
           <p class="description">"Awesome service! There video editing service is like mo other, would definitely recommend them to anyone!"</p>
           <ul class="social">
@@ -224,9 +229,9 @@
           <div class="pic">
               <img src="image/Clients_images/client2.jpeg">
           </div>
-          <h3 class="title">Kristiana Bell</h3>
+          <h3 class="name">Kristiana Bell</h3>
           <span class="post">Web Designer</span>
-          <p class="description">"Honestly, Genesis Design is such a good outlet to get your graphics service". </p>
+          <p class="description">"Honestly, Genesis Design is such a good outlet to get your graphics service. There service is the best!"</p>
           <ul class="social">
               <li><a href="https://www.facebook.com/" class="fa fa-facebook"></a></li>
               <li><a href="https://twitter.com/i/flow/login" class="fa fa-twitter"></a></li>
@@ -244,7 +249,8 @@
           <div class="pic">
               <img src="image/Clients_images/client3.jpeg">
           </div>
-          <h3 class="title">Michael Brown</h3>
+          <br>
+          <h3 class="name">Michael Brown</h3>
           <span class="post">Web Designer</span>
           <p class="description">"Highly, highly recommend to anyone who likes being creative but has a hard time coming up with ideas".</p>
           <ul class="social">
@@ -264,9 +270,9 @@
           <div class="pic">
               <img src="image/Clients_images/client4.jpeg">
           </div>
-          <h3 class="title">Ryan Richardson</h3>
+          <h3 class="name">Ryan Richardson</h3>
           <span class="post">Web Designer</span>
-          <p class="description">"There’s a wide selection of products to choose from, i really love there professionalism."</p>
+          <p class="description">"There’s a wide selection of products to choose from, i really love there professionalism. They have a very unique style!"</p>
           <ul class="social">
               <li><a href="https://www.facebook.com/" class="fa fa-facebook"></a></li>
               <li><a href="https://twitter.com/i/flow/login" class="fa fa-twitter"></a></li>
@@ -279,6 +285,7 @@
   
   </div>
   </div>
+  <br><br><br>
  <!-----------------------------------------------Footer------------------------------------------------------------>
     <footer class="footer">
       <div class="">
@@ -345,5 +352,6 @@
 <script 
   src="script.js">
 </script>
+
 </body>
 </html>

@@ -9,15 +9,21 @@
   crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/d2057036c1.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins&display=swap" rel="stylesheet">
   <link rel="icon" href="image/favicon (1).ico">
     <title>Genesis Design - Contact</title>
 </head>
-<body>  
+<body style = "background-color: #f3f4f6;">  
 <!--------------------------------------------Nav Bar------------------------------------------------------->
-<div class="sticky-top" style="background-color: white;">
+<div class="sticky-top" style="background-color: #f3f4f6;">
   <nav class="">
     <ul class="nav justify-content-end">
       <li class="top-nav-icons">
+        <div class="spinner-grow text-danger" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
         <i class="fa-solid fa-phone"></i>
         <span class="number">888697-8475</span>
         <a href="index.html" class="signin"><span>Login <i class="fa-solid fa-circle-user"></i></span></a>
@@ -28,7 +34,7 @@
       </li>
     </ul>
   </nav>
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #97d0f9;">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #b2bfcf;">
     <div class="container-fluid">
       <a class="navbar-brand" href="home.html"><img src="image/Logo.png" alt="" width="130px"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,24 +43,24 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-pills">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="home.html">HOME</a>
+            <a class="nav-link" aria-current="page" href="home.html" style="color: #271f54;">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="aboutus.html">ABOUT</a>
+            <a class="nav-link" aria-current="page" href="aboutus.html" style="color: #271f54;">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+            <a class="nav-link" href="portfolio.html" style="color: #271f54;">PORTFOLIO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="consultancy.html">CONSULTANCY</a>
+            <a class="nav-link" href="consultancy.html" style="color: #271f54;">CONSULTANCY</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="contactus.html">CONTACT</a>
+            <a class="nav-link active" href="contactus.html" style="color: #271f54;">CONTACT</a>
           </li>
         </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-primary" id="form-action" type="submit">Search</button>
+        <form class="search-box">
+          <input class="search-txt" type="text" name="" placeholder="search...">
+                <i class="fas fa-search" style="color: #ec2227;"></i>
         </form>
       </div>
     </div>
@@ -106,7 +112,7 @@
       <p class="contact-words">5 Richmond Ave |<br> Golden Area</p>
     </div>
     <div class="col">
-      <img src="image/mail.png" class="about-img">
+      <img src="image/mail3.png" class="about-img">
       <br><br>
       <h5 class="contact-head">Email & Phone</h5>
       <br>
@@ -118,7 +124,7 @@
       <h5 class="contact-head">Also find us on social media below</h5>
       <br>
       <div class="footer-icons"> 
-        <a href="https://www.facebook.com/" target="_blank" class="link"><i class="fa-brands fa-lg fa-facebook-square"></i></a>
+        <a href="https://www.facebook.com/" target="_blank" class=""><i class="fa-brands fa-lg fa-facebook-square"></i></a>
         <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-lg fa-instagram-square"></i></a>
         <a href="https://www.whatsapp.com/" target="_blank"><i class="fa-brands fa-lg fa-whatsapp-square"></i></a>
         <a href="https://www.pinterest.com/" target="_blank"><i class="fa-brands fa-lg fa-pinterest-square"></i></a>
@@ -144,12 +150,12 @@
     </div>
     <div class="dropdown contact-page-form">
       <label for="question">Reason for Contact</label>
-      <select class="form-select" id="question" style="width: 430px">
-        <option value="q1">--Choose--</option>
-        <option value="q2">Starting a project</option>
-        <option value="q3">Need clarity on our services</option>
-        <option value="q4">Reporting a matter</option>
-        <option value="q5">Other</option>
+      <select class="form-select" id="question" style="width: 433px">
+        <option class="contact-page-form" value="q1">--Choose--</option>
+        <option class="contact-page-form" value="q2">Starting a project</option>
+        <option class="contact-page-form" value="q3">Need clarity on our services</option>
+        <option class="contact-page-form" value="q4">Reporting a matter</option>
+        <option class="contact-page-form" value="q5">Other</option>
       </select>
     </div>
     <br>
